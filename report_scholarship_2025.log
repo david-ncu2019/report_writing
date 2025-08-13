@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.14)  13 AUG 2025 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.14)  13 AUG 2025 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,7 +409,13 @@ Package hyperref Info: Link coloring OFF on input line 25.
 
 {C:/Users/FAFALAB/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/FA
 FALAB/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-(report_scholarship_2025.toc)
+(report_scholarship_2025.toc
+Overfull \hbox (8.23935pt too wide) in paragraph at lines 5--5
+ [] [][]\OT1/ptm/b/n/12 Second Manuscript: A Spa-tiotem-po-ral Data Fu-sion Fra
+me-work for High-Resolution 
+ []
+
+)
 \tf@toc=\write4
 \openout4 = `report_scholarship_2025.toc'.
 
@@ -423,16 +429,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3]
-Overfull \hbox (3.74232pt too wide) in paragraph at lines 57--57
+Overfull \hbox (3.74232pt too wide) in paragraph at lines 63--63
 []\OT1/ptm/b/n/17.28 Second Manuscript: A Spa-tiotem-po-ral Data Fu-sion Frame-
 
  []
@@ -446,13 +443,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[3]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
 [4]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-05.
+11.
  (C:\Users\FAFALAB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (15.40204pt too wide) in paragraph at lines 105--106
+Overfull \hbox (15.40204pt too wide) in paragraph at lines 111--112
 []\OT1/ptm/b/n/12 First-of-its-kind Sub-sur-face Maps: \OT1/ptm/m/n/12 Gen-er-a
 -tion of the first-ever con-tin-u-ous, high-resolution
  []
@@ -488,33 +494,29 @@ Package rerunfilecheck Warning: File `report_scholarship_2025.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `report_scholarship_2025.out':
-(rerunfilecheck)             Before: 356112F43A4BF73E978C0F97DBDD06C5;3201
-(rerunfilecheck)             After:  C8B50DC6BAF26F259A8DA574D668D292;3131.
+(rerunfilecheck)             Before: C8B50DC6BAF26F259A8DA574D668D292;3131
+(rerunfilecheck)             After:  DF996647F0CAD382F323298F99AC16D1;3093.
  ) 
 Here is how much of TeX's memory you used:
- 10094 strings out of 469940
- 158232 string characters out of 5468441
+ 10092 strings out of 469940
+ 158202 string characters out of 5468441
  558218 words of memory out of 5000000
- 36763 multiletter control sequences out of 15000+600000
+ 36762 multiletter control sequences out of 15000+600000
  647490 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1189b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsection.3.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-<C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/FAFALAB/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/FAFALAB/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/FAFALAB/AppData/
-Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/FAFALAB/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report_scholarship_2025.pdf (6 pages, 116922 bytes).
+ 75i,11n,79p,904b,501s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/FAFALAB/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/FAFALAB/AppData/
+Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/FAFALAB/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/FAFALAB/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report_scholarship_2025.pdf (6 pages, 115206 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,6 +6,7 @@
 \usepackage{times}
 \usepackage{fancyhdr}
 
+% Sets up a simple header for the document
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Progress Report}
@@ -32,103 +33,98 @@
 	
 	\section{Introduction and Overview}
 	
-	This report outlines my academic and research activities for the period of 2024-2025. This year has been marked by significant progress, including the publication of my first peer-reviewed paper, active participation in the international scientific community, and the development of a second, more advanced research manuscript. My work continues to focus on the critical environmental issue of land subsidence, utilizing cutting-edge remote sensing technologies and hydrogeological modeling to develop practical mitigation strategies. This document details these accomplishments and outlines the conceptual framework, methodology, and future direction of my ongoing research. The objective is to demonstrate my continued dedication and the substantive progress made under the support of this prestigious scholarship.
+	This report details my academic and research progress throughout the 2024-2025 academic year. This period has been marked by significant scholarly development, highlighted by the publication of my first peer-reviewed paper, active engagement with the international scientific community through multiple conference presentations, and substantial advancement on a second manuscript. My research continues to address the critical environmental challenge of land subsidence by integrating advanced remote sensing with hydrogeological modeling to develop practical mitigation strategies.
+	
+	This document aims to demonstrate my continued dedication and the substantive progress made possible through the support of this scholarship. Furthermore, it outlines my key accomplishments and establishes the future direction of my work, illustrating how my research contributes to both scientific understanding and practical solutions for sustainable water management and infrastructure protection.
 	
 	\section{Summary of Main Activities (2024-2025)}
 	
-	\subsection{Conference Attendance: AOGS 2024}
+	\subsection{Conference Participation and Scientific Community Engagement}
 	
-	In July 2024, I had the privilege of attending the 21st Annual Meeting of the Asia Oceania Geosciences Society (AOGS), held in Pyeongchang, South Korea. AOGS is a leading organization dedicated to promoting geosciences and their application for the benefit of humanity, particularly in Asia and Oceania. The annual convention serves as a vital platform for scientists, researchers, and public institutions to exchange knowledge and discuss critical geo-scientific issues, with a strong focus on natural hazard assessment and mitigation.
+	During this academic year, I actively participated in three major international conferences, demonstrating my commitment to scientific dissemination and community engagement. In July 2024, I attended the 21st Annual Meeting of the Asia Oceania Geosciences Society (AOGS) in Pyeongchang, South Korea, where I presented two oral presentations. The first presentation, titled "Monitoring and Assessing Environmental Risks of Land Subsidence in the Choushui River Fluvial Plain by Multiple-Source Data Integration," was delivered in the session IG06 - Near Surface Investigation and Modeling for Groundwater Resources Assessment. This presentation integrated data from multiple monitoring systems including groundwater level monitoring wells, GPS stations, survey leveling benchmarks, multi-level compaction monitoring wells, and InSAR to investigate subsidence patterns. The second presentation focused on "Experimental and Numerical Assessment of Fresh Water and Seawater Interactions in the Coastal Aquifer of the Taoyuan Tableland, Taiwan," which demonstrated my broader expertise in hydrogeological modeling and experimental techniques.
 	
-	My participation in AOGS 2024 was an invaluable experience. I attended numerous sessions within the Hydrological Sciences (HS) and Solid Earth (SE) sections, which are directly relevant to my research. The presentations provided deep insights into the latest advancements in InSAR processing techniques, groundwater modeling, and the integration of diverse geodetic datasets. Engaging with leading experts in the field not only expanded my scientific knowledge but also allowed me to build connections within the international research community, receiving feedback that has helped refine the direction of my current work.
+	Following the success of my AOGS participation, I presented at the 2025 Taiwan Geosciences Assembly (TGA) in Taipei during June 2025. This presentation outlined the conceptual framework for my second manuscript, proposing an approach that integrates SBAS-InSAR with multilayer compaction monitoring well data to reveal regional patterns of layerwise compaction through geographically weighted regression. Most recently, from August 3-8, 2025, I attended the IEEE International Geoscience and Remote Sensing Symposium (IGARSS) in Brisbane, Australia, where I presented a poster showcasing the findings from my published work on land subsidence monitoring and mitigation strategies.
 	
-	\subsection{First-Author Publication in \textit{Remote Sensing}}
+	\subsection{First-Author Publication Achievement}
 	
-	A major milestone of this academic year was the publication of my first-author paper, titled \textbf{"Quantitative Evaluations of Pumping-Induced Land Subsidence and Mitigation Strategies by Integrated Remote Sensing and Site-Specific Hydrogeological Observations,"} in the prestigious journal \textit{Remote Sensing} (MDPI). The paper can be accessed at: \href{https://www.mdpi.com/2072-4292/16/20/3789}{https://www.mdpi.com/2072-4292/16/20/3789}.
+	My first-author publication in the peer-reviewed journal Remote Sensing presented a comprehensive study on land subsidence in Taiwan's critical Choushui River Fluvial Plain. The core of this work was the development of a robust framework that integrates dense, time-series InSAR measurements (from 292 Sentinel-1 images) with sparse, site-specific hydrogeological observations. Our analysis identified a major subsidence bowl with sinking rates up to 60 mm/year, and quantitatively demonstrated its strong correlation with both fine-grained sedimentary materials and groundwater level decline. Crucially, this research provided two actionable outcomes: a quantitative risk assessment for the Taiwan High-Speed Rail system traversing the region, and a predictive model that establishes clear management thresholds for sustainable groundwater extraction.
 	
-	This research presented a comprehensive workflow to analyze and mitigate land subsidence in the Choushui River Fluvial Plain (CRFP), a critical agricultural region in Taiwan. The key contributions of this work are:
+%====================================================================
+% VERSION TINH CHỈNH BỞI "ÔNG ANH"
+% Mục tiêu: Gọn hơn, logic hơn, và đặt GTWR vào đúng vai trò trung tâm.
+%====================================================================
+
+\section{Second Manuscript: A Spatiotemporal Data Fusion Framework for High-Resolution Subsurface Compaction Mapping}
+% === BÌNH LUẬN CỦA ANH ===
+% Cái tiêu đề này nó cụ thể và "hot" hơn. Nó nêu bật được 2 từ khóa: 
+% "Data Fusion Framework" (khung làm việc dung hợp dữ liệu) và 
+% "High-Resolution Subsurface Compaction Mapping" (thành quả cuối cùng).
+% Nó "bán" được sản phẩm của em ngay từ tiêu đề.
+
+\subsection{Research Motivation: From Surface Phenomena to Subsurface Mechanisms}
+%
+% === BÌNH LUẬN CỦA ANH ===
+% Đoạn này gộp 2 phần Conceptual Framework và Research Motivation lại.
+% Mục tiêu là trình bày vấn đề một cách súc tích.
+%
+My first-author publication (\textit{Nguyen et al., 2024}) established a robust methodology for quantifying large-scale surface deformation in the Choushui River Fluvial Plain using time-series InSAR. While this provided a critical overview of the subsidence phenomenon, it highlighted two fundamental research gaps that motivate my current work: 
+%
+\begin{enumerate}
+	\item \textbf{The Scale Mismatch Problem:} There is a significant disconnect between dense, surface-level InSAR data and sparse, depth-resolved compaction data from MLCWs. How can we reliably estimate subsurface processes at locations without expensive, direct instrumentation?
+	\item \textbf{The Linearity Assumption Problem:} The relationship between groundwater dynamics and compaction is inherently non-linear and varies significantly across different geological settings (spatial non-stationarity) and seasons (temporal non-stationarity). Simple linear models fail to capture this complexity.
+\end{enumerate}
+%
+This manuscript addresses these gaps by proposing an innovative framework to create the first high-resolution, spatiotemporal maps of layer-wise compaction for the entire region.
+
+\subsection{Methodological Framework: Spatiotemporal Data Fusion via GTWR}
+%
+% === BÌNH LUẬN CỦA ANH ===
+% Đây là phần thay đổi lớn nhất. Anh đã gộp cả 3 "thành phần" của em lại
+% và đặt GTWR làm giải pháp trung tâm, thay vì xem nó như một trong ba thứ.
+%
+To bridge the gap between surface and subsurface data, our core methodological innovation is the application and validation of a \textbf{Geographically and Temporally Weighted Regression (GTWR)} framework. This approach is uniquely suited to this problem because it is explicitly designed to model non-stationary relationships that vary in both space and time.
+
+The specific implementation is formulated as:
+%
+\begin{equation}
+	\text{MLCW}_{i,n}(t) = \beta_{0}(u_i, v_i, t) + \beta_{1}(u_i, v_i, t) \cdot \text{InSAR}_{i}(t) + \varepsilon_i
+\end{equation}
+%
+where the layer-wise compaction in layer \textit{n} at location \textit{i} and time \textit{t} (MLCW$_{i,n}(t)$) is modeled as a local, time-varying function of the surface deformation (InSAR$_{i}(t)$). The spatiotemporally varying coefficients, $\beta_{0}$ (local intercept) and $\beta_{1}$ (dynamic sensitivity), capture the underlying hydrogeological mechanisms. 
+
+To ensure the robustness of our predictor variable, the InSAR time-series is derived from the synergistic fusion of both **ascending and descending Sentinel-1 orbits**, allowing us to decompose the satellite's line-of-sight measurements into vertical and East-West horizontal motion components. High-precision GPS data are then used to calibrate the resulting deformation field, creating a reliable input for the GTWR model. The calibration of the GTWR model itself is performed systematically for each aquifer layer, optimizing the spatiotemporal bandwidth and parameters using a leave-one-station-out cross-validation scheme to prevent overfitting and assess the model's predictive power.
+
+\subsection{Anticipated Contributions and Scientific Insights}
+%
+% === BÌNH LUẬN CỦA ANH ===
+% Đoạn này tóm gọn lại phần "đóng góp" cho nó sắc bén và mạnh mẽ.
+%
+The successful implementation of this GTWR framework is expected to yield several novel contributions:
+%
+\begin{itemize}
+	\item \textbf{First-of-its-kind Subsurface Maps:} Generation of the first-ever continuous, high-resolution maps of layer-wise compaction across the Choushui River Plain, moving beyond the limitations of sparse point measurements.
 	
-	\begin{itemize}
-		\item \textbf{Advanced InSAR Processing:} We employed an integrated SBAS-PSInSAR approach using a dense time-series of 292 Sentinel-1 images (2016-2022) to generate high-resolution deformation maps. This method improved measurement density and accuracy, identifying a major subsidence bowl in Yunlin County with rates up to 60 mm/year.
-		\item \textbf{Multi-Source Data Integration:} The study stands out by its holistic integration of InSAR results with extensive hydrogeological datasets, including groundwater levels, multilayer compaction monitoring wells, and borehole logs. This allowed us to identify the specific aquifers contributing most to subsidence, finding that 50\% of major compaction occurs in the shallow aquifers (first 90 meters).
-		\item \textbf{Impact Assessment on Critical Infrastructure:} We provided a detailed analysis of subsidence impacts on the Taiwan High-Speed Rail (THSR), quantifying cumulative displacements and estimating angular deflections along the railway pillars. This highlighted segments at high risk of damage from non-uniform settlement, providing crucial data for infrastructure safety management.
-		\item \textbf{Development of a Mitigation Model:} A primary innovation of the paper was a straightforward linear model correlating groundwater level (GWL) drops with subsidence amplitudes. Based on a government-specified control rate of 40 mm/year, our model proposed practical thresholds for GWL drops between wet and dry seasons. For instance, in the most sensitive shallow aquifer, the GWL drop should be maintained within 3 to 5 meters to mitigate further sinking.
-	\end{itemize}
+	\item \textbf{Quantitative Evidence for Hydrogeological Mechanisms:} The resulting spatiotemporal maps of the $\beta$ coefficients will serve as a powerful proxy for subsurface properties. Their spatial patterns will be used to quantitatively validate conceptual models (e.g., the "sponge vs. isolated box" hypothesis), and their temporal variations will provide direct evidence of non-linear processes like inelastic compaction and hysteresis.
 	
-	The publication of this paper has been a culmination of extensive research and collaboration, and it establishes a strong foundation for my subsequent work.
+	\item \textbf{Enhanced Risk Assessment and Management Tools:} The predicted compaction maps, coupled with their associated uncertainty fields, will provide a direct, data-driven tool for assessing risks to critical infrastructure and for guiding future groundwater management policies and monitoring network design.
+\end{itemize}
 	
-	\subsection{Upcoming Conference: TGA 2025}
+	\subsection{Timeline for Completion and Dissemination}
 	
-	I am scheduled to attend the **2025 Taiwan Geosciences Assembly (TGA)**, which will be held in Taipei from June 16-19, 2025. The TGA is the foremost annual gathering for the Earth sciences community in Taiwan, bringing together domestic and international researchers from diverse fields such as atmospheric science, oceanography, geology, hydrology, and geodesy. The theme for 2025 is \textbf{“Climate and Environmental Changes: Emerging Horizons in Earth Sciences”}, which aligns perfectly with my research on anthropogenic environmental hazards.
+	I have established a detailed timeline for completing this research and disseminating the results to maximize impact within the scientific community and practical applications. During the fourth quarter of 2025, I will complete the processing and integration of all remote sensing and ground-based datasets. This phase includes finalizing the three-dimensional deformation maps, completing the machine learning model training and validation, and implementing the geographically weighted regression framework.
 	
-	At TGA 2025, I plan to present the preliminary findings from my second manuscript. This will be an excellent opportunity to disseminate my latest research to a focused and knowledgeable audience, solicit valuable feedback before journal submission, and further establish my presence within the national geoscience community.
+	The first quarter of 2026 will be dedicated to comprehensive analysis of the results and manuscript preparation. This phase will involve generating all figures and tables, conducting thorough statistical analysis of model performance, and writing the complete manuscript text. The manuscript will undergo internal review by my supervisors and collaborators to ensure scientific rigor and clarity before submission.
 	
-	\subsection{Ongoing Research: Second Manuscript}
-	
-	Building on the findings and limitations of my first publication, I am currently working on my second manuscript. This new research aims to develop a more physically robust and accurate model of land subsidence by advancing both the deformation measurement techniques and the hydrogeological modeling approach. The following section provides a detailed exposition of this ongoing work.
-	
-	\section{Second Manuscript: Advanced 3D Deformation Modeling and Non-Linear Subsidence Analysis}
-	
-	\subsection{Conceptual Idea and Research Gap}
-	
-	My first paper successfully quantified vertical land subsidence and proposed a linear model for mitigation. However, we acknowledged two key limitations that form the research gap for my next manuscript:
-	
-	\begin{enumerate}
-		\item \textbf{One-Dimensional Deformation View:} The analysis relied solely on ascending-orbit Sentinel-1 SAR images. While calibrated with 3D GPS data, this approach primarily captures the vertical component of displacement and cannot independently resolve the full three-dimensional deformation field (vertical, East-West, North-South). Ground movement is rarely purely vertical, and horizontal strains can impose significant shear stress on infrastructure foundations, a factor not fully quantified in the previous study.
-		\item \textbf{Assumption of Linearity:} The mitigation model assumed a simple linear relationship between GWL drops and subsidence amplitudes. In reality, the response of an aquifer system to groundwater extraction is highly complex and non-linear. It involves factors like the poroelastic properties of different sediment layers, inelastic compaction (which is irreversible), and hysteresis effects where the ground does not rebound to its original elevation even when water levels recover. A linear model, while useful, is a simplification that may not be accurate under all conditions.
-	\end{enumerate}
-	
-	Therefore, the conceptual goal of this second manuscript is to move beyond these limitations by developing an integrated framework that can:
-	\begin{enumerate}
-		\item \textbf{Map the full 3D surface deformation field} to provide a more complete assessment of subsidence-related hazards.
-		\item \textbf{Model the non-linear and complex relationship} between groundwater dynamics and surface deformation to create more accurate and reliable predictive tools for water management.
-	\end{enumerate}
-	
-	\subsection{Methodology}
-	
-	To achieve these goals, I am employing a multi-faceted methodology that integrates more advanced remote sensing techniques with machine learning.
-	
-	\subsubsection{Three-Dimensional Deformation Field Mapping}
-	The core of this new approach is the synergistic use of both **ascending and descending Sentinel-1 SAR orbits**. While one orbit's line-of-sight (LOS) is insufficient, combining two different viewing geometries allows for the mathematical decomposition of the LOS displacement into two primary components: vertical and East-West horizontal motion. The methodology is as follows:
-	\begin{enumerate}
-		\item Process time-series of both ascending and descending Sentinel-1 images over the CRFP using the same SBAS-PSInSAR workflow established in my first paper.
-		\item Combine the derived ascending ($d_{asc}$) and descending ($d_{desc}$) LOS displacement fields to solve for vertical ($d_{up}$) and East-West ($d_{east}$) components at each measurement point. This decomposition requires solving a system of linear equations that relates the LOS vectors to the ground components.
-		\item Integrate the 3D GPS data, which provide accurate measurements at sparse locations, to calibrate the InSAR-derived 3D field and solve for the North-South component, which InSAR is less sensitive to. This fusion results in a high-resolution, high-accuracy 3D deformation map of the entire study area.
-	\end{enumerate}
-	
-	\subsubsection{Non-Linear Hydrogeological Modeling with Machine Learning}
-	To capture the complex relationship between water extraction and ground movement, I am moving from a simple linear regression to a more sophisticated machine learning model. A **Random Forest Regressor** has been chosen for its robustness, ability to handle non-linear relationships, and its resistance to overfitting.
-	
-	The model will be trained using the following input features, many of which were already prepared for my first study:
-	\begin{itemize}
-		\item The newly derived 3D surface deformation time-series (target variables).
-		\item Hourly GWL data from the WRA's monitoring network for all aquifer layers.
-		\item Layer-wise compaction data from the Multilayer Compaction Monitoring Wells (MLCWs).
-		\item Geological data, specifically the percentage of fine-grained materials (silt and clay) at different depths, derived from borehole logs.
-		\item Temporal features, such as month of the year and season, to capture cyclical patterns.
-	\end{itemize}
-	The trained model will not only predict subsidence with higher accuracy but also provide insights into the relative importance of different factors (e.g., which aquifer's GWL has the most significant non-linear effect on surface deformation).
-	
-	\subsection{Anticipated Results and Significance}
-	
-	While this work is ongoing, I anticipate several key results that will represent a significant advancement over my previous research:
-	\begin{itemize}
-		\item \textbf{Quantification of Horizontal Displacements:} The 3D model is expected to reveal significant horizontal movement, particularly an eastward shift toward the center of the main subsidence bowl in Yunlin. This finding will have direct implications for the safety assessment of the THSR, as horizontal strain is a key factor in the structural integrity of deep foundations.
-		\item \textbf{Improved Subsidence Prediction:} The Random Forest model is expected to outperform the linear model significantly, especially in predicting inelastic (permanent) subsidence. It will likely reveal critical thresholds in GWL, beyond which compaction accelerates non-linearly.
-		\item \textbf{A Dynamic Water Management Tool:} The ultimate output will be a more nuanced and dynamic tool for policymakers. Instead of a single static value for allowable GWL drops, the model could be used to simulate different extraction scenarios and predict their 3D ground deformation consequences, enabling more adaptive and sustainable groundwater management.
-	\end{itemize}
-	
-	\subsection{Future Plan for Publication}
-	
-	I have a clear timeline for completing and disseminating this research:
-	\begin{itemize}
-		\item \textbf{Q3 2025:} Finalize the processing of ascending and descending InSAR data and complete the training and validation of the machine learning model.
-		\item \textbf{Q4 2025:} Complete the drafting of the manuscript. This will include generating all figures, tables, and writing the full text for internal review by my supervisors and colleagues.
-		\item \textbf{Q1 2026:} Submit the manuscript to a top-tier, high-impact journal in the field of remote sensing or Earth sciences, such as \textit{Remote Sensing of Environment} or the \textit{Journal of Geophysical Research: Solid Earth}.
-	\end{itemize}
+	Following this preparation phase, I plan to submit the manuscript during the second quarter of 2026 to a premier journal in the field, with \textit{Remote Sensing of Environment} as the primary target due to its emphasis on innovative remote sensing applications and high impact factor within the Earth sciences community. The journal's focus on advanced remote sensing techniques and their integration with ground-based observations aligns perfectly with the methodological contributions of this research.
 	
 	\section{Conclusion}
 	
-	This past year has been highly productive, culminating in a first-author publication that contributes meaningfully to the understanding and mitigation of land subsidence. My participation in the AOGS 2024 conference has broadened my perspective and strengthened my professional network. Moving forward, my research is addressing the limitations of my initial work by developing a sophisticated 3D deformation model integrated with machine learning. This ongoing project promises to deliver a more complete and accurate scientific understanding of subsidence processes, providing advanced tools for sustainable resource management and infrastructure protection. I am confident in the direction of my research and remain deeply grateful for the support of the scholarship, which has been instrumental in enabling this progress. I am committed to continuing this trajectory of excellence in the coming year.
+	This academic year has been exceptionally productive, marked by significant achievements in research publication, scientific community engagement, and methodological advancement. The publication of my first-author paper in \textit{Remote Sensing} established my research contributions to the field of land subsidence monitoring and mitigation. My active participation in three major international conferences has strengthened my professional network and provided valuable feedback that has enhanced my ongoing research.
+	
+	The development of my second manuscript represents a substantial methodological advancement that addresses the acknowledged limitations of my previous work while pushing the boundaries of what is possible in subsidence monitoring and prediction. The integration of three-dimensional deformation mapping, machine learning approaches, and geographically weighted regression creates a comprehensive framework that will advance both scientific understanding and practical applications in groundwater management and infrastructure protection.
+	
+	This research trajectory demonstrates the iterative nature of scientific advancement, where each study builds upon previous work while addressing new challenges and expanding methodological capabilities. I am confident in the direction of my research and remain deeply grateful for the support of this scholarship, which has been instrumental in enabling these achievements. The financial and institutional support has allowed me to focus entirely on my research objectives while participating fully in the international scientific community.
+	
+	As I look toward the completion of my second manuscript, I am excited about its potential to make significant contributions to the field while providing practical tools for addressing one of Taiwan's most pressing environmental challenges. I am committed to maintaining this trajectory of excellence and am grateful for the continued opportunity to pursue these important scientific questions with the support of this prestigious scholarship.
 	
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.14)  13 AUG 2025 12:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.14)  13 AUG 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -308,7 +308,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \@temptokenb=\toks24
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-4.
+5.
  (C:\Users\FAFALAB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -319,24 +319,24 @@ File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 ) (report_scholarship_2025.aux)
 \openout1 = `report_scholarship_2025.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -398,7 +398,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 .cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 25.
  (report_scholarship_2025.out) (report_scholarship_2025.out)
 \@outlinefile=\write3
 \openout3 = `report_scholarship_2025.out'.
@@ -423,22 +423,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-Overfull \hbox (40.38724pt too wide) in paragraph at lines 47--48
-\OT1/ptm/m/n/12 pres-ti-gious jour-nal \OT1/ptm/m/it/12 Re-mote Sens-ing \OT1/p
-tm/m/n/12 (MDPI). The pa-per can be ac-cessed at: []https://www.mdpi.com/2072-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-2.
-(C:\Users\FAFALAB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Overfull \hbox (5.14258pt too wide) in paragraph at lines 52--53
-\OT1/ptm/m/n/12 us-ing a dense time-series of 292 Sentinel-1 im-ages (2016-2022
-) to gen-er-ate high-resolution
- []
-
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -448,6 +432,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
+Overfull \hbox (3.74232pt too wide) in paragraph at lines 57--57
+[]\OT1/ptm/b/n/17.28 Second Manuscript: A Spa-tiotem-po-ral Data Fu-sion Frame-
+
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -457,6 +447,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+05.
+ (C:\Users\FAFALAB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (15.40204pt too wide) in paragraph at lines 105--106
+[]\OT1/ptm/b/n/12 First-of-its-kind Sub-sur-face Maps: \OT1/ptm/m/n/12 Gen-er-a
+-tion of the first-ever con-tin-u-ous, high-resolution
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -474,42 +475,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7] (report_scholarship_2025.aux)
+[6] (report_scholarship_2025.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
  ***********
-Package rerunfilecheck Info: File `report_scholarship_2025.out' has not changed
-.
-(rerunfilecheck)             Checksum: DADB739D5F9BEEA445E2276E0F00E4F2;3426.
+
+
+Package rerunfilecheck Warning: File `report_scholarship_2025.out' has changed.
+
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `report_scholarship_2025.out':
+(rerunfilecheck)             Before: 356112F43A4BF73E978C0F97DBDD06C5;3201
+(rerunfilecheck)             After:  C8B50DC6BAF26F259A8DA574D668D292;3131.
  ) 
 Here is how much of TeX's memory you used:
- 10104 strings out of 469940
- 158313 string characters out of 5468441
- 557221 words of memory out of 5000000
+ 10094 strings out of 469940
+ 158232 string characters out of 5468441
+ 558218 words of memory out of 5000000
  36763 multiletter control sequences out of 15000+600000
- 648105 words of font info for 79 fonts, out of 8000000 for 9000
+ 647490 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,956b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmmi12.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/urw/times/utmb8a.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/
-type1/urw/times/utmbi8a.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/times/utmr8a.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on report_scholarship_2025.pdf (7 pages, 108517 bytes).
+ 75i,11n,79p,1189b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.3.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+<C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Users/FAFALAB/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/FAFALAB/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/FAFALAB/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/FAFALAB/AppData/
+Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/FAFALAB/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report_scholarship_2025.pdf (6 pages, 116922 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

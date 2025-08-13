@@ -1,10 +1,10 @@
 \contentsline {section}{\numberline {1}Introduction and Overview}{3}{section.1}%
 \contentsline {section}{\numberline {2}Summary of Main Activities (2024-2025)}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Conference Participation and Scientific Dissemination}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}First-Author Publication Achievement}{3}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Second Manuscript: A Spatiotemporal Data Fusion Framework for High-Resolution Subsurface Compaction Mapping}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Research Motivation: From Surface Phenomena to Subsurface Mechanisms}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Methodological Framework: Spatiotemporal Data Fusion via GTWR}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Anticipated Contributions and Scientific Insights}{5}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Timeline for Completion and Dissemination}{5}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Conclusion}{5}{section.4}%
+\contentsline {subsection}{\numberline {2.2}First-Author Publication Achievement}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Second Draft: A Spatiotemporal Data Fusion Framework for High-Resolution Subsurface Compaction Mapping}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Introduction}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Methodology}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Anticipated Scientific Contributions and Practical Applications}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Timeline for Completion and Dissemination}{7}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Conclusion}{8}{section.4}%

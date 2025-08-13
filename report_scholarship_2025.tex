@@ -5,6 +5,10 @@
 \usepackage{hyperref}
 \usepackage{times}
 \usepackage{fancyhdr}
+\usepackage{indentfirst}
+\usepackage{float}
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0.5em}
 
 % Sets up a simple header for the document
 \pagestyle{fancy}
@@ -35,102 +39,167 @@
 	
 	This report details my academic and research progress throughout the 2024-2025 academic year. This period has been marked by significant scholarly development, highlighted by the publication of my first peer-reviewed paper, active engagement with the international scientific community through multiple conference presentations, and substantial advancement on a second manuscript. My research continues to address the critical environmental challenge of land subsidence by integrating advanced remote sensing with hydrogeological modeling to develop practical mitigation strategies.
 	
-	This document aims to demonstrate my continued dedication and the substantive progress made possible through the support of this scholarship. Furthermore, it outlines my key accomplishments and establishes the future direction of my work, illustrating how my research contributes to both scientific understanding and practical solutions for sustainable water management and infrastructure protection.
+	This report aims to demonstrate my continued dedication and the substantive progress made possible through the support of this scholarship. Furthermore, it outlines my key accomplishments and establishes the future direction of my work, illustrating how my research contributes to both scientific understanding and practical solutions for sustainable water management and infrastructure protection.
 	
 	\section{Summary of Main Activities (2024-2025)}
 	
 	\subsection{Conference Participation and Scientific Dissemination}
-	% === BÌNH LUẬN CỦA ANH ===
-	% "Dissemination" (Phổ biến/Lan tỏa) là một từ học thuật mạnh mẽ hơn "Engagement".
 	
-	I am committed to disseminating my research and engaging with the international scientific community. This year, I presented my work at three major conferences, showcasing the progression of my Ph.D. research.
+	I am committed to disseminating my research and engaging with the international scientific community. This year, I presented my work at three major conferences, showcasing the progression of my Ph.D. research and establishing important connections within the geosciences community.
 	
-	At the \textbf{21st Annual Meeting of the Asia Oceania Geosciences Society (AOGS 2024)} in Pyeongchang, I delivered two oral presentations. The first, focusing on the Choushui River Fluvial Plain, detailed my initial data integration efforts for land subsidence assessment. The second presentation highlighted my broader capabilities in hydrogeological modeling by examining freshwater-seawater interactions in coastal aquifers.
+	At the \textbf{21st Annual Meeting of the Asia Oceania Geosciences Society} (AOGS 2024) in Pyeongchang, I delivered two oral presentations that demonstrated the breadth of my research capabilities. The first presentation focused on the Choushui River Fluvial Plain, detailing my initial data integration efforts for comprehensive land subsidence assessment. This work showcased my ability to integrate multiple monitoring systems to address complex environmental challenges. The second presentation highlighted my broader capabilities in hydrogeological modeling by examining freshwater-seawater interactions in coastal aquifers, demonstrating my versatility in applying advanced techniques to different hydrogeological settings.
 	
-	Subsequently, at the \textbf{Taiwan Geosciences Assembly (TGA 2025)}, I presented the conceptual framework for my current manuscript, introducing the innovative use of Geographically Weighted Regression to map layer-wise compaction from satellite and in-situ data. 
-	
-	Most recently, I presented a poster at the \textbf{IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2025)} in Brisbane, where I shared the key findings and mitigation strategies from my first-author publication in \textit{Remote Sensing}. These engagements have provided invaluable feedback and fostered new connections for future collaborations.
+	Subsequently, at the \textbf{Taiwan Geosciences Assembly} (TGA 2025), I introduced the advanced methodological framework for my current manuscript. This work progresses beyond traditional spatial models by employing Geographically and Temporally Weighted Regression (GTWR) to create the first spatiotemporal maps of layer-wise compaction. My presentation detailed how this approach uniquely captures the non-stationary, seasonal dynamics linking InSAR surface deformation with in-situ subsurface data.
+		
+	Most recently, I presented a poster at the \textbf{IEEE International Geoscience and Remote Sensing Symposium} (IGARSS 2025) in Brisbane, where I shared the key findings and mitigation strategies from my first-author publication in Remote Sensing. These engagements have provided invaluable feedback and fostered new connections for future collaborations, significantly expanding my professional network within the international remote sensing and geosciences communities.
 	
 	\subsection{First-Author Publication Achievement}
 	
-	My first-author publication in the peer-reviewed journal Remote Sensing presented a comprehensive study on land subsidence in Taiwan's critical Choushui River Fluvial Plain. The core of this work was the development of a robust framework that integrates dense, time-series InSAR measurements (from 292 Sentinel-1 images) with sparse, site-specific hydrogeological observations. Our analysis identified a major subsidence bowl with sinking rates up to 60 mm/year, and quantitatively demonstrated its strong correlation with both fine-grained sedimentary materials and groundwater level decline. Crucially, this research provided two actionable outcomes: a quantitative risk assessment for the Taiwan High-Speed Rail system traversing the region, and a predictive model that establishes clear management thresholds for sustainable groundwater extraction.
+	My first-author publication in the peer-reviewed journal Remote Sensing presented a comprehensive study on land subsidence in Taiwan's critical Choushui River Fluvial Plain. The core of this work was the development of a robust framework that integrates dense, time-series InSAR measurements from 292 Sentinel-1 images with sparse, site-specific hydrogeological observations. This integration represented a significant methodological advancement in bridging the gap between broad-coverage satellite observations and detailed ground-based measurements.
 	
-%====================================================================
-% VERSION TINH CHỈNH BỞI "ÔNG ANH"
-% Mục tiêu: Gọn hơn, logic hơn, và đặt GTWR vào đúng vai trò trung tâm.
-%====================================================================
-
-\section{Second Manuscript: A Spatiotemporal Data Fusion Framework for High-Resolution Subsurface Compaction Mapping}
-% === BÌNH LUẬN CỦA ANH ===
-% Cái tiêu đề này nó cụ thể và "hot" hơn. Nó nêu bật được 2 từ khóa: 
-% "Data Fusion Framework" (khung làm việc dung hợp dữ liệu) và 
-% "High-Resolution Subsurface Compaction Mapping" (thành quả cuối cùng).
-% Nó "bán" được sản phẩm của em ngay từ tiêu đề.
-
-\subsection{Research Motivation: From Surface Phenomena to Subsurface Mechanisms}
-%
-% === BÌNH LUẬN CỦA ANH ===
-% Đoạn này gộp 2 phần Conceptual Framework và Research Motivation lại.
-% Mục tiêu là trình bày vấn đề một cách súc tích.
-%
-My first-author publication (\textit{Nguyen et al., 2024}) established a robust methodology for quantifying large-scale surface deformation in the Choushui River Fluvial Plain using time-series InSAR. While this provided a critical overview of the subsidence phenomenon, it highlighted two fundamental research gaps that motivate my current work: 
-%
-\begin{enumerate}
-	\item \textbf{The Scale Mismatch Problem:} There is a significant disconnect between dense, surface-level InSAR data and sparse, depth-resolved compaction data from MLCWs. How can we reliably estimate subsurface processes at locations without expensive, direct instrumentation?
-	\item \textbf{The Linearity Assumption Problem:} The relationship between groundwater dynamics and compaction is inherently non-linear and varies significantly across different geological settings (spatial non-stationarity) and seasons (temporal non-stationarity). Simple linear models fail to capture this complexity.
-\end{enumerate}
-%
-This manuscript addresses these gaps by proposing an innovative framework to create the first high-resolution, spatiotemporal maps of layer-wise compaction for the entire region.
-
-\subsection{Methodological Framework: Spatiotemporal Data Fusion via GTWR}
-%
-% === BÌNH LUẬN CỦA ANH ===
-% Đây là phần thay đổi lớn nhất. Anh đã gộp cả 3 "thành phần" của em lại
-% và đặt GTWR làm giải pháp trung tâm, thay vì xem nó như một trong ba thứ.
-%
-To bridge the gap between surface and subsurface data, our core methodological innovation is the application and validation of a \textbf{Geographically and Temporally Weighted Regression (GTWR)} framework. This approach is uniquely suited to this problem because it is explicitly designed to model non-stationary relationships that vary in both space and time.
-
-The specific implementation is formulated as:
-%
-\begin{equation}
-	\text{MLCW}_{i,n}(t) = \beta_{0}(u_i, v_i, t) + \beta_{1}(u_i, v_i, t) \cdot \text{InSAR}_{i}(t) + \varepsilon_i
-\end{equation}
-%
-where the layer-wise compaction in layer \textit{n} at location \textit{i} and time \textit{t} (MLCW$_{i,n}(t)$) is modeled as a local, time-varying function of the surface deformation (InSAR$_{i}(t)$). The spatiotemporally varying coefficients, $\beta_{0}$ (local intercept) and $\beta_{1}$ (dynamic sensitivity), capture the underlying hydrogeological mechanisms. 
-
-To ensure the robustness of our predictor variable, the InSAR time-series is derived from the synergistic fusion of both **ascending and descending Sentinel-1 orbits**, allowing us to decompose the satellite's line-of-sight measurements into vertical and East-West horizontal motion components. High-precision GPS data are then used to calibrate the resulting deformation field, creating a reliable input for the GTWR model. The calibration of the GTWR model itself is performed systematically for each aquifer layer, optimizing the spatiotemporal bandwidth and parameters using a leave-one-station-out cross-validation scheme to prevent overfitting and assess the model's predictive power.
-
-\subsection{Anticipated Contributions and Scientific Insights}
-%
-% === BÌNH LUẬN CỦA ANH ===
-% Đoạn này tóm gọn lại phần "đóng góp" cho nó sắc bén và mạnh mẽ.
-%
-The successful implementation of this GTWR framework is expected to yield several novel contributions:
-%
-\begin{itemize}
-	\item \textbf{First-of-its-kind Subsurface Maps:} Generation of the first-ever continuous, high-resolution maps of layer-wise compaction across the Choushui River Plain, moving beyond the limitations of sparse point measurements.
+	Our analysis successfully identified a major subsidence bowl with sinking rates up to 60 mm per year, and quantitatively demonstrated its strong correlation with both fine-grained sedimentary materials and groundwater level decline. The research revealed that the most significant compaction occurs within the first 150 meters of depth, directly linking surface subsidence to agricultural water use patterns in the region. Crucially, this research provided two actionable outcomes that directly support policy and infrastructure management decisions. First, we conducted a quantitative risk assessment for the Taiwan High-Speed Rail system passing the region, demonstrating how subsidence monitoring can inform critical infrastructure protection strategies. Second, we developed a predictive model that establishes clear management thresholds for sustainable groundwater extraction, providing water resource managers with evidence-based tools for preventing excessive subsidence while maintaining agricultural productivity.
 	
-	\item \textbf{Quantitative Evidence for Hydrogeological Mechanisms:} The resulting spatiotemporal maps of the $\beta$ coefficients will serve as a powerful proxy for subsurface properties. Their spatial patterns will be used to quantitatively validate conceptual models (e.g., the "sponge vs. isolated box" hypothesis), and their temporal variations will provide direct evidence of non-linear processes like inelastic compaction and hysteresis.
+	\section{Second Draft: A Spatiotemporal Data Fusion Framework for High-Resolution Subsurface Compaction Mapping}
 	
-	\item \textbf{Enhanced Risk Assessment and Management Tools:} The predicted compaction maps, coupled with their associated uncertainty fields, will provide a direct, data-driven tool for assessing risks to critical infrastructure and for guiding future groundwater management policies and monitoring network design.
-\end{itemize}
+	\subsection{Introduction}
+	
+	My first-author publication established a robust methodology for quantifying large-scale surface deformation in the Choushui River Fluvial Plain using time-series InSAR. While this provided a critical overview of the subsidence phenomenon, it highlighted two fundamental research gaps that motivate my current work and represent significant opportunities for methodological advancement.
+	
+	The first challenge is the scale mismatch problem, which represents a significant disconnect between dense, surface-level InSAR data and sparse, depth-resolved compaction data from multilayer compaction monitoring wells (MLCWs). The critical question becomes how we can reliably estimate subsurface processes at locations without expensive, direct instrumentation, thereby extending the detailed insights available from monitoring wells to the broader regional scale. The second challenge involves the linearity assumption problem, recognizing that the relationship between groundwater dynamics and compaction is inherently non-linear and varies significantly across different geological settings, representing spatial non-stationarity, and across seasons, representing temporal non-stationarity. Simple linear models fail to capture this complexity, limiting their utility for accurate prediction and management applications.
+	
+	This manuscript addresses these gaps by proposing an innovative framework to create the first high-resolution, spatiotemporal maps of layer-wise compaction for the entire region. This advancement represents a significant step toward understanding subsurface processes at unprecedented spatial and temporal resolution while maintaining the physical basis provided by direct monitoring measurements.
+	
+	\subsection{Methodology}
+	
+	To bridge the gap between surface and subsurface data, our core methodological innovation applies and validates a Geographically and Temporally Weighted Regression (GTWR) framework. This approach proves uniquely suited to this problem because it explicitly models non-stationary relationships that vary in both space and time. Unlike conventional global regression models that assume a single, static relationship, GTWR enables investigation of how the relationship between surface and subsurface deformation evolves spatially and temporally across heterogeneous geological settings.
+	
+	The theoretical foundation of GTWR extends traditional regression analysis by incorporating spatiotemporal dependency structures. The general form of the GTWR model expresses this relationship as:
+	
+	\begin{equation}
+		y_i = \beta_{0}(u_i, v_i, t_i) + \sum_{k=1}^{p} \beta_{k}(u_i, v_i, t_i) x_{ik} + \varepsilon_i
+	\end{equation}
+	
+	This formulation demonstrates that for any observation point $i$, the dependent variable $y_i$ relates to independent variables $x_{ik}$ through regression coefficients $\beta_{k}$ that vary according to the spatiotemporal coordinates $(u_i, v_i, t_i)$ of each observation point, with $\varepsilon_i$ representing the error term. The fundamental innovation lies in the spatiotemporal variability of the regression coefficients, which contrasts sharply with global constants assumed in traditional approaches.
+	
+	Building upon this theoretical framework, we tailor the GTWR model to address our specific research objective of relating subsurface compaction to surface deformation patterns. The specialized formulation models compaction within aquifer layer $n$ as a function of corresponding surface deformation observations:
+	
+	\begin{equation}
+		\text{MLCW}_{i,n}(t) = \beta_{0}(u_i, v_i, t) + \beta_{1}(u_i, v_i, t) \cdot \text{InSAR}_{i}(t) + \varepsilon_i
+		\label{eq:gtwr_specific}
+	\end{equation}
+	
+	This equation establishes the fundamental relationship where MLCW$_{i,n}(t)$ represents the cumulative compaction (in mm) within layer $n$ at station $i$ and time $t$, serving as the dependent variable. The independent variable, InSAR$_{i}(t)$, represents the InSAR-derived cumulative vertical surface deformation (in mm) at location $i$ and time $t$. The spatiotemporally varying intercept term $\beta_{0}(u_i, v_i, t)$ captures local baseline compaction or expansion not explained by the surface signal, while the sensitivity parameter $\beta_{1}(u_i, v_i, t)$ quantifies how subsurface compaction responds to surface deformation at each point in space and time, inherently reflecting local hydrogeological properties and conditions.
+	
+	The estimation of local coefficients in Equation~\ref{eq:gtwr_specific} employs a weighted least squares approach that implements spatiotemporal proximity principles. This methodology assigns weights through a kernel function that prioritizes observations closer to each regression point $(u_i, v_i, t)$, ensuring that local relationships receive appropriate emphasis in parameter estimation. The weighting scheme follows an adaptive bi-square kernel function specifically chosen to accommodate the sparse distribution of MLCW stations across the study area:
+	
+	\begin{equation}
+		W_{ij} = \begin{cases} 
+			[1 - (d^{ST}_{ij}/h_i)^2]^2, & \text{if } d^{ST}_{ij} < h_i \\
+			0, & \text{otherwise}
+		\end{cases}
+	\end{equation}
+	
+	This kernel function creates a weighting matrix where $d^{ST}_{ij}$ represents the spatiotemporal distance between locations $i$ and $j$, and $h_i$ denotes the adaptive bandwidth that determines the effective neighborhood size. The adaptive nature ensures that each regression point utilizes a consistent number of neighboring observations, regardless of local data density variations.
+	
+	The spatiotemporal distance calculation represents a critical component that integrates both spatial and temporal proximity effects. Following established GTWR methodological principles, we calculate spatiotemporal distances using adjustment parameters $\lambda$ and $\xi$ that control the relative importance of spatial versus temporal components:
+	
+	\begin{equation}
+		\begin{cases}
+			d_{ij}^{\text{ST}} = \lambda d_{ij}^{\text{S}} + (1-\lambda) d_{ij}^{\text{T}} + 2 \sqrt{\lambda (1-\lambda) d_{ij}^{\text{S}} d_{ij}^{\text{T}}} \cos(\xi), & t_j < t_i \\
+			d_{ij}^{\text{ST}} = \infty, & t_j > t_i
+		\end{cases}
+	\end{equation}
+	
+	This formulation incorporates temporal causality by setting infinite distance for future observations ($t_j > t_i$), ensuring that predictions rely solely on historical and contemporaneous data. The interaction term involving $\cos(\xi)$ captures space-time coupling effects that reflect the physical processes governing subsidence evolution.
+	
+	The optimization of model parameters follows rigorous statistical criteria to ensure robust performance across varying geological and temporal conditions. We determine optimal bandwidth $h_i$, spatial-temporal weighting parameter $\lambda$, and interaction parameter $\xi$ through minimization of the corrected Akaike Information Criterion (AICc):
+	
+	\begin{equation}
+		\text{AICc} = 2n \log_e (\hat{\sigma}) + n \log_e (2\pi) + n \left\{ \frac{n + \text{tr}(\mathbf{S})}{n - 2 - \text{tr}(\mathbf{S})} \right\}
+	\end{equation}
+	
+	This criterion balances model fit against complexity, where $n$ represents the sample size, $\hat{\sigma}$ denotes the estimated standard deviation of the error term, and $\text{tr}(\mathbf{S})$ indicates the trace of the hat matrix representing the effective number of model parameters. The AICc formulation specifically addresses small sample conditions common in hydrogeological monitoring networks.
+	
+	Model validation employs leave-one-out cross-validation to assess predictive reliability under realistic operational constraints. This validation approach systematically excludes individual MLCW observations and predicts compaction time series at each excluded location using remaining observations and fixed optimal parameters determined during calibration. This procedure simulates practical scenarios where subsurface behavior must be estimated at locations lacking direct monitoring infrastructure, providing quantitative assessment of model performance for operational applications.
+		
+	\subsection{Anticipated Scientific Contributions and Practical Applications}
+	% === BÌNH LUẬN CỦA ANH: Giữ tiêu đề này, nó bao quát cả khoa học và ứng dụng ===
+	
+	The successful implementation of this GTWR framework is anticipated to yield three primary contributions, advancing both the scientific understanding of subsidence mechanisms and the practical capabilities for its management.
+	
+	First, this research will produce the \textbf{first-ever continuous, high-resolution maps of layer-wise compaction} across the Choushui River Fluvial Plain. By moving beyond the inherent limitations of sparse, point-based MLCW measurements, these maps will provide unprecedented spatial coverage of subsurface processes. This represents a significant methodological step forward, demonstrating how satellite and in-situ data can be synergistically integrated for comprehensive, regional-scale assessment without requiring additional costly monitoring infrastructure.
+	
+	Second, the spatiotemporal maps of the GTWR coefficients ($\beta_{0}$ and $\beta_{1}$) themselves will serve as a novel diagnostic tool to \textbf{uncover and characterize the underlying hydrogeological mechanisms}. 
+	%
+	% === BÌNH LUẬN CỦA ANH: Đây là phần quan trọng nhất, nơi em trình bày "lý thuyết" của mình ===
+	%
+	\begin{itemize}
+		\item By analyzing the \textbf{spatial patterns} of the mean $\beta_1$ coefficients, we will identify and delineate distinct zones of hydrogeological behavior. This will allow us to quantitatively test the hypothesis that regions like southern Yunlin exhibit highly interconnected aquifer systems ("high-sensitivity zones"), while other regions like Changhua may function as more fragmented or isolated systems ("low-sensitivity zones").
+		\item By analyzing the \textbf{temporal variations} of the $\beta_1$ coefficients, we will capture direct, data-driven evidence of complex, non-linear aquifer responses. Fluctuations in these coefficients synchronized with seasonal pumping cycles will quantitatively reveal the extent of inelastic compaction and hysteretic behavior, offering deep insights into the time-dependent nature of the aquifer system's memory and resilience.
+	\end{itemize}
+	
+	Finally, this work will deliver \textbf{enhanced tools for data-driven risk assessment and management}. The predicted compaction maps, coupled with their rigorously derived uncertainty fields, will enable a more precise identification of areas vulnerable to damaging differential settlement. This provides a direct, quantitative basis for prioritizing infrastructure maintenance and guiding the strategic design of future monitoring networks, ultimately supporting more effective and sustainable groundwater management policies.
 	
 	\subsection{Timeline for Completion and Dissemination}
 	
-	I have established a detailed timeline for completing this research and disseminating the results to maximize impact within the scientific community and practical applications. During the fourth quarter of 2025, I will complete the processing and integration of all remote sensing and ground-based datasets. This phase includes finalizing the three-dimensional deformation maps, completing the machine learning model training and validation, and implementing the geographically weighted regression framework.
+	Having completed the data processing and modeling phases, my research is now entering the final analysis and dissemination stage. The timeline is structured to facilitate manuscript submission by the end of 2025, followed by the completion of my doctoral dissertation. The key milestones are outlined in Table~\ref{tab:timeline}.
 	
-	The first quarter of 2026 will be dedicated to comprehensive analysis of the results and manuscript preparation. This phase will involve generating all figures and tables, conducting thorough statistical analysis of model performance, and writing the complete manuscript text. The manuscript will undergo internal review by my supervisors and collaborators to ensure scientific rigor and clarity before submission.
-	
-	Following this preparation phase, I plan to submit the manuscript during the second quarter of 2026 to a premier journal in the field, with \textit{Remote Sensing of Environment} as the primary target due to its emphasis on innovative remote sensing applications and high impact factor within the Earth sciences community. The journal's focus on advanced remote sensing techniques and their integration with ground-based observations aligns perfectly with the methodological contributions of this research.
+	\begin{table}[H]
+		\centering
+		\caption{Projected Timeline for Manuscript and Dissertation Completion.}
+		\label{tab:timeline}
+		\begin{tabular}{|p{0.3\textwidth}|p{0.6\textwidth}|} % Adjusted column widths
+			\hline
+			\textbf{Time Period} & \textbf{Key Milestones} \\
+			\hline
+			\hline
+			% --- GIAI ĐOẠN 1 ---
+			\textbf{Aug 2025 – Oct 2025}
+			& 
+			\begin{itemize} \itemsep0em
+				\item Conduct final data analysis and interpretation.
+				\item Generate all figures and tables.
+				\item Write and internally review the first complete manuscript draft.
+			\end{itemize} \\
+			\hline
+			% --- GIAI ĐOẠN 2 ---
+			\textbf{Nov 2025 – Dec 2025} 
+			&
+			\begin{itemize} \itemsep0em
+				\item Revise manuscript based on feedback.
+				\item \textbf{Submit manuscript} to a high-impact journal (Target: \textit{Remote Sensing of Environment}).
+			\end{itemize} \\
+			\hline
+			% --- GIAI ĐOẠN 3 ---
+			\textbf{Dec 2025 – Feb 2026}
+			&
+			\begin{itemize} \itemsep0em
+				\item While awaiting manuscript review, write the Ph.D. dissertation chapters.
+				\item Integrate published and submitted works into the thesis.
+			\end{itemize} \\
+			\hline
+			% --- GIAI ĐOẠN 4 ---
+			\textbf{Mar 2026}
+			&
+			\begin{itemize} \itemsep0em
+				\item Finalize and submit the dissertation.
+				\item \textbf{Ph.D. Dissertation Defense.}
+			\end{itemize} \\
+			\hline
+		\end{tabular}
+	\end{table}
+
 	
 	\section{Conclusion}
 	
-	This academic year has been exceptionally productive, marked by significant achievements in research publication, scientific community engagement, and methodological advancement. The publication of my first-author paper in \textit{Remote Sensing} established my research contributions to the field of land subsidence monitoring and mitigation. My active participation in three major international conferences has strengthened my professional network and provided valuable feedback that has enhanced my ongoing research.
+	This has been a pivotal year in my Ph.D. journey, defined by three key achievements: the successful publication of my first-authored paper, active participation in major international conferences such as IGARSS, and the development of an advanced methodological framework for my second manuscript. These milestones have not only validated my initial research but have also provided a strong foundation for my future contributions.
 	
-	The development of my second manuscript represents a substantial methodological advancement that addresses the acknowledged limitations of my previous work while pushing the boundaries of what is possible in subsidence monitoring and prediction. The integration of three-dimensional deformation mapping, machine learning approaches, and geographically weighted regression creates a comprehensive framework that will advance both scientific understanding and practical applications in groundwater management and infrastructure protection.
+	% === BÌNH LUẬN CỦA ANH: Đoạn này chốt lại thành tựu cốt lõi. ===
+	My published work established a robust workflow for integrating InSAR with in-situ data. My current research elevates this by employing a Geographically and Temporally Weighted Regression (GTWR) framework. This is not just an incremental improvement; it is a conceptual leap forward that allows us to model the complex, non-stationary mechanisms of subsurface compaction in both space and time. This approach directly addresses the critical gap between observing surface phenomena and understanding the underlying hydrogeological processes.
 	
-	This research trajectory demonstrates the iterative nature of scientific advancement, where each study builds upon previous work while addressing new challenges and expanding methodological capabilities. I am confident in the direction of my research and remain deeply grateful for the support of this scholarship, which has been instrumental in enabling these achievements. The financial and institutional support has allowed me to focus entirely on my research objectives while participating fully in the international scientific community.
+	% === BÌNH LUẬN CỦA ANH: Đoạn này là tầm nhìn và lời cam kết. Rất quan trọng. ===
+	As I enter the final phase of my Ph.D., my focus is clear: to complete and submit this second manuscript to a high-impact journal and finalize my dissertation. The tools and insights developed through this research trajectory have significant potential for practical application in groundwater management and infrastructure risk assessment in Taiwan and beyond.
 	
-	As I look toward the completion of my second manuscript, I am excited about its potential to make significant contributions to the field while providing practical tools for addressing one of Taiwan's most pressing environmental challenges. I am committed to maintaining this trajectory of excellence and am grateful for the continued opportunity to pursue these important scientific questions with the support of this prestigious scholarship.
+	I am profoundly grateful for the support of this scholarship, which has been instrumental in enabling my research and engagement with the scientific community. I am committed to maintaining this trajectory of excellence and look forward to contributing new knowledge to the field.
 	
 \end{document}
